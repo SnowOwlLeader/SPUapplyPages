@@ -1,0 +1,15 @@
+server:
+  port: "8080" # port to run the server on
+
+oauth:
+  client_id: "" # linux.do client_id
+  client_secret: "" # linux.do client_secret
+  redirect_uri: "" # linux.do redirect_uri
+  token_url: "https://connect.linux.do/oauth2/token"
+  auth_url: "https://connect.linux.do/oauth2/authorize"
+  userinfo_url: "https://connect.linux.do/api/user"
+
+google:
+  client_id: "" # google client_id
+  client_secret: "" # google client_secret
+  refresh_token: "" # google refresh_token
