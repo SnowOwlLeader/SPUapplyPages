@@ -57,9 +57,9 @@
                     <el-icon><Message /></el-icon>
                   </template>
                 </el-input>
-                <span class="email-suffix">@polyu.edu.rs</span>
+                <span class="email-suffix">@canterlot.edu.pl</span>
               </div>
-              <div class="email-tip">系统将自动添加 @polyu.edu.rs 后缀</div>
+              <div class="email-tip">系统将自动添加 @canterlot.edu.p 等三个教育域名后缀</div>
             </el-form-item>
 
             <el-form-item label="辅助邮箱" prop="backupEmail">
