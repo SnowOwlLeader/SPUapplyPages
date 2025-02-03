@@ -3,13 +3,13 @@
     <el-card class="login-card">
       <div class="login-header">
         <img src="../assets/BigLOGO.png" alt="Serbian Polytechnic University Logo" class="logo">
-        <h2>入学申请</h2>
-        <p class="subtitle">欢迎申请塞尔维亚理工大学在线课程</p>
+        <h2>学籍申请系统</h2>
+        <p class="subtitle">国立坎特洛特大学学籍申请系统</p>
       </div>
       
       <div class="login-content">
         <p class="description">
-          请使用您的 Linux Do 账号登录以开始申请流程。
+          请使用您的 Linux Do 论坛账号登录以开始申请流程（低于二级将被拒绝）
         </p>
 
         <el-button
