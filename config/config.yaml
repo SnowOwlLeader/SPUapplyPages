@@ -1,0 +1,15 @@
+server:
+  port: "8080" # port to run the server on
+
+oauth:
+  client_id: "oMAJahYkvz3fIYQ1IMC71ASpvsbCOEI2" # linux.do client_id
+  client_secret: "XIsCIx4ImTVxkgbuCnZHgPHDfi01NCap" # linux.do client_secret
+  redirect_uri: "https://login.canterlot.me/" # linux.do redirect_uri
+  token_url: "https://connect.linux.do/oauth2/token"
+  auth_url: "https://connect.linux.do/oauth2/authorize"
+  userinfo_url: "https://connect.linux.do/api/user"
+
+google:
+  client_id: "2159308334-7i2m2r5mrqmvh01rp1850nkt53b6ikku.apps.googleusercontent.com" # google client_id
+  client_secret: "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" # google client_secret
+  refresh_token: "1//04t-HGKoHhdA3CgYIARAAGAQSNgF-L9Irm0esh8ATNK2kWzBLmKs8Vf5dQlfwe0rgQKFJBr68vgxwYCDFkyK1Su48DAR2pgN6Dw" # google refresh_token
