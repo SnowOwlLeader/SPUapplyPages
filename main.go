@@ -42,10 +42,10 @@ func main() {
 	registerHandler := handler.NewRegisterHandler()
 
 	// 设置静态文件服务
-	r.Static("/assets", "./web/dist/assets")
-	r.StaticFile("/", "./web/dist/index.html")
+	r.Static("/assets", "./www/school/SPUapplyPages/assets")
+	r.StaticFile("/", "./www/school/SPUapplyPages/web/index.html")
 	r.NoRoute(func(c *gin.Context) {
-		c.File("./web/dist/index.html")
+		c.File("./www/school/SPUapplyPages/web/index.html")
 	})
 
 	// 设置API路由
